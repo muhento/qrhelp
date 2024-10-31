@@ -68,6 +68,7 @@ body {
     border-radius: 8px;
     cursor: pointer;
     transition: background 0.3s;
+    text-decoration: none; /* Remove underline from the call button */
 }
 
 .call-btn:hover, .direction-btn:hover {
@@ -118,6 +119,7 @@ body {
     background-color: #c53030;
 }
 
+/* Link Styling for Profile Info */
 .info-value a {
     color: #2b6cb0; /* Link color */
     text-decoration: none; /* Remove underline */
@@ -126,4 +128,3 @@ body {
 .info-value a:hover {
     text-decoration: underline; /* Underline on hover for links */
 }
-
