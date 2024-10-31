@@ -117,3 +117,13 @@ body {
 .fab:hover {
     background-color: #c53030;
 }
+
+.info-value a {
+    color: #2b6cb0; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.info-value a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
+
